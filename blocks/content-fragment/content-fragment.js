@@ -1,5 +1,5 @@
 // put your AEM publish address here
-const aempublishurl = 'https://author-p121252-e1560178.adobeaemcloud.com/'
+const aempublishurl = 'https://author-p121252-e1560178.adobeaemcloud.com'
 
 // this fixes having to manually change the AEM host here
 const AEM_HOST = checkDomain()
