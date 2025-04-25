@@ -1,10 +1,12 @@
 // put your AEM publish address here
+const aempublishurl = 'https://publish-p121252-e1560178.adobeaemcloud.com/'
+
 // this fixes having to manually change the AEM host here
 const AEM_HOST = checkDomain()
 
 function checkDomain(){
   if (window.location.hostname.includes("hlx.page") || window.location.hostname.includes("aem.page") || window.location.hostname.includes("localhost")){
-    return "https://publish-p131639-e1282833.adobeaemcloud.com/"    
+    return `${aempublishurl}`
   }else{
     return window.location.origin 
   }
